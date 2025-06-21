@@ -173,7 +173,7 @@ const PatientForm = () => {
             <Row className="mt-3">
               <Col md={6}>
                 <Form.Group>
-                  <Form.Label>Gender * </Form.Label>
+                  <Form.Label style={{display:"flex"}}>Gender * </Form.Label>
                   {["Male", "Female", "Other"].map((gender) => (
                     <Form.Check
                       inline
